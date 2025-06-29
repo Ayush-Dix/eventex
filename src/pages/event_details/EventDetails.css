@@ -1,0 +1,94 @@
+.event-details-container {
+    min-height: 100vh;
+    background: linear-gradient(120deg, #17191c 60%, #3fa6ff 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 3rem 1rem 2rem 1rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+.event-details-title {
+    font-size: 2.5rem;
+    font-weight: 800;
+    color: #d5d5f6;
+    margin-bottom: 1.2rem;
+    letter-spacing: 0.01em;
+    text-align: center;
+}
+
+.event-details-date {
+    color: #fe75b3;
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+.event-details-description {
+    color: #f3f4f5;
+    font-size: 1.15rem;
+    margin-bottom: 1.2rem;
+    max-width: 700px;
+    text-align: center;
+    line-height: 1.6;
+}
+
+.event-details-location,
+.event-details-organizer {
+    color: #3fa6ff;
+    font-size: 1.08rem;
+    margin-bottom: 0.7rem;
+    text-align: center;
+    font-weight: 500;
+}
+
+.no-event {
+    background: #fff0fa;
+    border-radius: 16px;
+    box-shadow: 0 2px 16px rgba(254, 117, 179, 0.08);
+    padding: 2.5rem 2rem;
+    margin-top: 3rem;
+    text-align: center;
+    color: #b5179e;
+    max-width: 420px;
+}
+
+.no-event h2 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 0.7rem;
+}
+
+.no-event p {
+    font-size: 1.08rem;
+    color: #b5179e;
+}
+
+.btn {
+    display: inline-block;
+    padding: 0.75rem 2rem;
+    border-radius: 8px;
+    font-size: 1.08rem;
+    font-weight: 600;
+    text-decoration: none;
+    transition: background 0.2s, color 0.2s, box-shadow 0.2s;
+    cursor: pointer;
+    margin-top: 2rem;
+    box-shadow: 0 2px 8px rgba(63, 166, 255, 0.08);
+}
+
+.btn-primary {
+    background: linear-gradient(90deg, #3fa6ff 60%, #fe75b3 100%);
+    color: #fff;
+    border: none;
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+    background: linear-gradient(90deg, #fe75b3 60%, #3fa6ff 100%);
+    color: #fff;
+    box-shadow: 0 4px 16px rgba(63, 166, 255, 0.18);
+    text-decoration: none;
+}

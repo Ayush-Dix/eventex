@@ -1,0 +1,77 @@
+/* Add this to AddEventForm.css or your main CSS file */
+
+.add-event-form {
+    min-height: 100vh;
+    min-width: 100vw;
+    box-sizing: border-box;
+    background: linear-gradient(120deg, #17191c 60%, #3fa6ff 100%);
+    padding: 2.5rem 2rem 2rem 2rem;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-group {
+    width: 100%;
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.form-label {
+    font-size: 1.08rem;
+    font-weight: 600;
+    color: #d5d5f6;
+}
+
+.form-input,
+.form-textarea {
+    border: none;
+    border-radius: 8px;
+    padding: 0.7rem 1rem;
+    font-size: 1rem;
+    font-family: 'Poppins', sans-serif;
+    background: #fff;
+    color: #22223b;
+    box-shadow: 0 1px 6px rgba(63, 166, 255, 0.07);
+    outline: none;
+    transition: box-shadow 0.2s;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.form-input:focus,
+.form-textarea:focus {
+    box-shadow: 0 0 0 2px #fe75b3;
+}
+
+.form-textarea {
+    min-height: 100px;
+    resize: vertical;
+}
+
+.form-button {
+    background: #fe75b3;
+    color: #fff;
+    font-weight: 700;
+    font-size: 1.1rem;
+    border: none;
+    border-radius: 8px;
+    padding: 0.8rem 2.2rem;
+    margin-top: 0.5rem;
+    cursor: pointer;
+    transition: background 0.2s, color 0.2s;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 0.03em;
+    box-shadow: 0 1px 6px rgba(63, 166, 255, 0.07);
+}
+
+.form-button:hover {
+    background: #3fa6ff;
+    color: #22223b;
+}

@@ -1,0 +1,70 @@
+.date-filter-form {
+    background: linear-gradient(135deg, #edf0f3 0%, #fe75b3 100%);
+    border-radius: 18px;
+    box-shadow: 0 2px 16px rgba(254, 117, 179, 0.08);
+    padding: 2.2rem 2rem 1.5rem 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem 2.5rem;
+    align-items: flex-end;
+    justify-content: center;
+    margin: 2rem auto 2.5rem auto;
+    max-width: 700px;
+}
+
+.date-filter-form label {
+    display: flex;
+    flex-direction: column;
+    font-weight: 600;
+    color: #22223b;
+    font-size: 1.08rem;
+    font-family: 'Poppins', sans-serif;
+    min-width: 140px;
+    gap: 0.5rem;
+}
+
+.date-filter-form input,
+.date-filter-form select {
+    border: none;
+    border-radius: 8px;
+    padding: 0.7rem 1rem;
+    font-size: 1rem;
+    font-family: 'Poppins', sans-serif;
+    background: #fff;
+    box-shadow: 0 1px 6px rgba(63, 166, 255, 0.07);
+    margin-top: 0.2rem;
+    outline: none;
+    transition: box-shadow 0.2s;
+}
+
+.date-filter-form input:focus,
+.date-filter-form select:focus {
+    box-shadow: 0 0 0 2px #7c0038;
+}
+
+.date-filter-form input[disabled] {
+    background: #f1f1f1;
+    color: #aaa;
+    cursor: not-allowed;
+}
+
+.date-filter-form button {
+    background: #3fa6ff;
+    color: #fff;
+    font-weight: 700;
+    font-size: 1.1rem;
+    border: none;
+    border-radius: 8px;
+    padding: 0.8rem 2.2rem;
+    margin-top: 0.5rem;
+    cursor: pointer;
+    transition: background 0.2s, color 0.2s;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 0.03em;
+    box-shadow: 0 1px 6px rgba(63, 166, 255, 0.07);
+}
+
+.date-filter-form button:hover {
+    background: #ffffff;
+    color: #22223b;
+}

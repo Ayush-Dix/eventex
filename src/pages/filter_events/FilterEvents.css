@@ -1,0 +1,19 @@
+.filter-events-container {
+    color: #fff;
+    min-height: 100vh;
+    background: linear-gradient(120deg, #17191c 60%, #3fa6ff 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 3rem;
+}
+
+@media (max-width: 700px) {
+    .filter-events-container {
+        padding: 0 0.5rem 2rem 0.5rem;
+    }
+}
+
+.filter-events-container {
+    color: #fff;
+}

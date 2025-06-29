@@ -1,0 +1,67 @@
+.event-list-container {
+    min-height: 100vh;
+    background: linear-gradient(120deg, #17191c 60%, #3fa6ff 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3rem 1rem 2rem 1rem;
+}
+
+.event-list-title {
+    font-size: 2.2rem;
+    font-weight: 800;
+    color: #d5d5f6;
+    margin-bottom: 0.5rem;
+    letter-spacing: 0.01em;
+    text-align: center;
+}
+
+.event-list-desc {
+    color: #495057;
+    font-size: 1.15rem;
+    margin-bottom: 2.5rem;
+    text-align: center;
+    font-weight: 400;
+}
+
+.event-list-cards {
+    width: 100%;
+    max-width: 1200px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2.5rem;
+    justify-items: center;
+}
+
+.no-events {
+    background: #fff0fa;
+    border-radius: 16px;
+    box-shadow: 0 2px 16px rgba(254, 117, 179, 0.08);
+    padding: 2.5rem 2rem;
+    margin-top: 3rem;
+    text-align: center;
+    color: #b5179e;
+    max-width: 420px;
+}
+
+.no-events h2 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 0.7rem;
+}
+
+.no-events p {
+    font-size: 1.08rem;
+    color: #b5179e;
+}
+
+
+.event-list-container,
+.event-list-title,
+.event-list-desc,
+.event-list-cards,
+.no-events,
+.no-events h2,
+.no-events p {
+    font-family: 'Poppins', sans-serif;
+}
